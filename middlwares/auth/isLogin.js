@@ -13,4 +13,4 @@ const verifyToken = (req,res,next)=>{
         return res.redirect('/auth/login')
     }
 }
-module.exports = verifyToken
+module.exports = verifyToken 
